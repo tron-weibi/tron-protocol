@@ -2,7 +2,7 @@ package crypto
 
 import (
 	"testing"
-	"github.com/jack-koli/tron-protocol/common/hexutil"
+	"github.com/weibi/tron-protocol/common/hexutil"
 )
 
 func TestGenerateKey(t *testing.T) {

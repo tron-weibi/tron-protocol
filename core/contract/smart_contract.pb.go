@@ -7,7 +7,7 @@
 package contract
 
 import (
-	_ "github.com/jack-koli/tron-protocol/core"
+	_ "github.com/weibi/tron-protocol/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

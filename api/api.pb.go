@@ -7,8 +7,8 @@
 package api
 
 import (
-	core "github.com/jack-koli/tron-protocol/core"
-	contract "github.com/jack-koli/tron-protocol/core/contract"
+	core "github.com/weibi/tron-protocol/core"
+	contract "github.com/weibi/tron-protocol/core/contract"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
