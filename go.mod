@@ -1,4 +1,4 @@
-module github.com/jack-koli/tron-protocol
+module github.com/weibi/tron-protocol
 
 go 1.14
 
