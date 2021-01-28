@@ -2,9 +2,8 @@ package api
 
 import (
 	"context"
-	"github.com/jack-koli/tron-protocol/core/contract"
 	"github.com/jack-koli/tron-protocol/core"
-	"github.com/jack-koli/tron-protocol/common/crypto/base58"
+	"github.com/jack-koli/tron-protocol/common/base58"
 	"log"
 	"testing"
 )
@@ -18,7 +17,7 @@ func TestGetAccount(t *testing.T)  {
 	walletClient := GetNewWalletClient()
 	acc := new(core.Account)
 	addr := "TZ5dPxnxd4rRZb7nudcorifD9zfxi2NSRY"
-	acc.Address = base58.Decode(addr)
+	acc.Address,_ = base58.Decode(addr)
 	result,err := walletClient.GetAccount(context.Background(), acc)
 	if err != nil {
 		log.Fatalf("can not get result of %s", addr)
