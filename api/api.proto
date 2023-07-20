@@ -1182,6 +1182,7 @@ message TransactionExtention {
   repeated bytes constant_result = 3;
   Return result = 4;
   int64 energy_used = 5;
+  int64 energy_penalty = 6;
 }
 
 message BlockExtention {
