@@ -1,8 +1,8 @@
 package crypto
 
 import (
+	"github.com/tien202/tron-protocol/common/hexutil"
 	"testing"
-	"github.com/weibi/tron-protocol/common/hexutil"
 )
 
 func TestGenerateKey(t *testing.T) {
