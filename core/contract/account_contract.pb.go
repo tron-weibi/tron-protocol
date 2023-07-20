@@ -21,7 +21,7 @@
 package contract
 
 import (
-	core "github.com/tien202/tron-protocol/core"
+	core "github.com/tron-weibi/tron-protocol/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

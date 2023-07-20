@@ -8,8 +8,8 @@ package api
 
 import (
 	context "context"
-	core "github.com/tien202/tron-protocol/core"
-	contract "github.com/tien202/tron-protocol/core/contract"
+	core "github.com/tron-weibi/tron-protocol/core"
+	contract "github.com/tron-weibi/tron-protocol/core/contract"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

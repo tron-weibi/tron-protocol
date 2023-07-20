@@ -1,4 +1,4 @@
-module github.com/tien202/tron-protocol
+module github.com/tron-weibi/tron-protocol
 
 go 1.14
 

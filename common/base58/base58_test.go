@@ -1,7 +1,7 @@
 package base58
 
 import (
-	"github.com/tien202/tron-protocol/common/hexutil"
+	"github.com/tron-weibi/tron-protocol/common/hexutil"
 	"strings"
 	"testing"
 )
